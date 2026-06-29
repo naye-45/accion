@@ -1,0 +1,25 @@
+name: TICS
+
+on:
+   push: 
+      branches: [ main ]
+jobs:
+   build:
+       runs-on: ubuntu-latest
+       steps:
+          - name: checkout
+           uses: actions/checkout@v7
+          - name: Mostrar archivos
+           run: ls -la
+          - name: Verificar que existe index.html
+            run: test -f index.html
+          - name: Verificar que existe style.css
+            run: test -f style.css
+          - name: Verificar que existe script.js
+            run: test -f script.js
+           
+                
+             
+           
+           
+           
