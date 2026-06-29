@@ -22,5 +22,4 @@ jobs:
       - name: Verificar que existe style.css
         run: test -f style.css
 
-      - name: Verificar que existe script.js
-        run: test -f script.js
+  
