@@ -24,6 +24,3 @@ jobs:
 
       - name: Verificar que existe script.js
         run: test -f script.js
-           
-           
-           
